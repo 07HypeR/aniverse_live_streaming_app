@@ -14,24 +14,24 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.stoic07.aniverse",
+      "bundleIdentifier": "YOUR_BUNDLE_NAME",
       "infoPlist": {
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": [
-              "com.googleusercontent.apps.898962256828-0qthv3kceskp54jbodhqnv2qtmschdvq"
+              "YOUR_CLIENT_ID"
             ]
           }
         ]
       }
     },
     "android": {
-      "googleServicesFile": "./google-services.json",
+      "googleServicesFile": "YOUR_FIREBASE_SERVICE_FILE_PATH",
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.stoic07.aniverse"
+      "package": "YOUR_BUNDLE_NAME"
     },
     "web": {
       "bundler": "metro",
@@ -54,7 +54,7 @@
       [
         "@react-native-google-signin/google-signin",
         {
-          "iosUrlScheme": "com.googleusercontent.apps.898962256828-0qthv3kceskp54jbodhqnv2qtmschdvq"
+          "iosUrlScheme": "YOUR_CLIENT_ID"
         }
       ],
       "expo-router"
