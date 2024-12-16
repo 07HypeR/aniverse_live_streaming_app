@@ -1,9 +1,15 @@
-import { View, Text } from "react-native";
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { Colors } from "@/utils/Constants";
 import { Stack } from "expo-router";
 import { WSProvider } from "@/service/sockets/WSProvider";
+import { GoogleSignin } from "@react-native-google-signin/google-signin";
+
+GoogleSignin.configure({
+  webClientId: process.env.EXPO_PUBLIC_WEB_CLIENT_ID,
+  forceCodeForRefreshToken: true,
+  iosClientId: process.env.EXPO_PUBLIC_IOS_CLIENT_ID,
+});
 
 const Root = () => {
   return (

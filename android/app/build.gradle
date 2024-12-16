@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.stoic.aniverse'
+    namespace 'com.stoic07.aniverse'
     defaultConfig {
-        applicationId 'com.stoic.aniverse'
+        applicationId 'com.stoic07.aniverse'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.stoic.aniverse
+package com.stoic07.aniverse
 
 import android.app.Application
 import android.content.res.Configuration

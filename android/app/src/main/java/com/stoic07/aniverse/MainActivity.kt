@@ -1,4 +1,4 @@
-package com.stoic.aniverse
+package com.stoic07.aniverse
 
 import android.os.Build
 import android.os.Bundle
