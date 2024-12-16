@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:980001182445:android:609f0074bb35f4e235b2e4",
+        "mobilesdk_app_id": "1:980001182445:android:6631b4f42dc1180f35b2e4",
         "android_client_info": {
-          "package_name": "com.stoic.aniverse"
+          "package_name": "com.stoic07.aniverse"
         }
       },
       "oauth_client": [

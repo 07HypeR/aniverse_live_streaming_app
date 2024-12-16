@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.stoic.aniverse",
+      "bundleIdentifier": "com.stoic07.aniverse",
       "infoPlist": {
         "CFBundleURLTypes": [
           {
@@ -31,7 +31,7 @@
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.stoic.aniverse"
+      "package": "com.stoic07.aniverse"
     },
     "web": {
       "bundler": "metro",
