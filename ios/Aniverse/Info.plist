@@ -27,12 +27,12 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.googleusercontent.apps.898962256828-0qthv3kceskp54jbodhqnv2qtmschdvq</string>
+          <string>YOUR_REVERSE_CLIENT_ID</string>
         </array>
       </dict>
     </array>
     <key>GIDClientId</key>
-    <string>com.googleusercontent.apps.898962256828-0qthv3kceskp54jbodhqnv2qtmschdvq</string>
+    <string>YOUR_REVERSE_CLIENT_ID</string>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>LSRequiresIPhoneOS</key>
