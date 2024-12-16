@@ -4,7 +4,6 @@ import { Colors } from "@/utils/Constants";
 import { Stack } from "expo-router";
 import { WSProvider } from "@/service/sockets/WSProvider";
 import { GoogleSignin } from "@react-native-google-signin/google-signin";
-import { SafeAreaProvider } from "react-native-safe-area-context";
 
 GoogleSignin.configure({
   webClientId: process.env.EXPO_PUBLIC_WEB_CLIENT_ID,
@@ -14,7 +13,7 @@ GoogleSignin.configure({
 
 const Root = () => {
   return (
-    <SafeAreaProvider>
+    <>
       <WSProvider>
         <StatusBar
           style="light"
@@ -42,7 +41,7 @@ const Root = () => {
           <Stack.Screen name="playlist" />
         </Stack>
       </WSProvider>
-    </SafeAreaProvider>
+    </>
   );
 };
 
