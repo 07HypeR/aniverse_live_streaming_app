@@ -1,4 +1,4 @@
-{
+V{
   "expo": {
     "name": "Aniverse",
     "slug": "Aniverse",
@@ -19,7 +19,7 @@
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": [
-              "YOUR_CLIENT_ID"
+              "YOUR_REVERSE_CLIENT_ID"
             ]
           }
         ]
@@ -54,7 +54,7 @@
       [
         "@react-native-google-signin/google-signin",
         {
-          "iosUrlScheme": "YOUR_CLIENT_ID"
+          "iosUrlScheme": "YOUR_REVERSE_CLIENT_ID"
         }
       ],
       "expo-router"
